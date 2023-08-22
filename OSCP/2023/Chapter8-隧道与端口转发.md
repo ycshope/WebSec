@@ -52,3 +52,9 @@ PC3:`ssh -N -R 8848 $user@192.168.1.1`
 ## 其他
 
 [桥链接模式分配ip问题](https://blog.csdn.net/kande0707/article/details/124702282)
+
+# 任务20：Plink；NETSH；HTTPTunnel-ing ；
+
+其他linux下的端口转发隧道工具：socat、nc
+
+windows下的端口转发代理工具:系统自带的有ssh、netsh；非自带的可以plink(在kali的`/usr/share/windows-resources/binaries`下)，该工具默认情况下是非交互是shell,可以利用管道解决无法输入ssh交互式链接的问题，命令格式`cmd /c echo y | $plinkcmd`
